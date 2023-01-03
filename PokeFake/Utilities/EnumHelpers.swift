@@ -1,0 +1,14 @@
+//
+//  AboutPokemon.swift
+//  PokeFake
+//
+//  Created by Luis Zelada on 20/12/22.
+//
+
+import Foundation
+
+enum AboutPokemonEnum : String {
+    case Height = "Height"
+    case Moves = "Moves"
+    case Weigth = "Weigth"
+}
