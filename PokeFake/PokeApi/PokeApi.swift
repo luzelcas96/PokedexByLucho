@@ -28,13 +28,3 @@ final class PokeApi {
         return pokemonsList
     }
     
-//    func decode<T: Decodable>(type: T.Type, url: String, parameters: [String: Any]? = nil) async throws -> T {
-//      guard let url = URL(string: url) else {
-//        throw URLErrors.emptyURL
-//      }
-//      let (data, _) = try await URLSession.shared.data(from: url)
-//      let dictionary = try JSONSerialization.data(withJSONObject: data)
-//      let entity = try JSONDecoder().decode(T.self, from: dictionary)
-//      return entity
-//    }
-}
