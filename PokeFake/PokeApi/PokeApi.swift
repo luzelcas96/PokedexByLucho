@@ -17,7 +17,7 @@ final class PokeApi {
         let pokemonDetail = try JSONDecoder().decode(Pokemon.self, from: data)
         return pokemonDetail
     }
-
+    
     func getListPokemons() async throws -> [PokemonMemberList]? {
         guard let url =  URL(string: ServicesDefinitions.getListPokemons) else {
             throw URLErrors.emptyURL
@@ -28,3 +28,4 @@ final class PokeApi {
         return pokemonsList
     }
     
+}
